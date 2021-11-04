@@ -1,0 +1,24 @@
+.container {
+  width: min(90%, 1260px);
+  margin: 0 auto;
+}
+.Navcontent {
+  background: #222020;
+
+  padding: 1.2rem;
+
+  color: #fff;
+}
+.Links {
+  margin-inline-end: 2rem;
+  text-transform: uppercase;
+  font-size: 1rem;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.Links:hover {
+  opacity: 0.8;
+}
+.active {
+  background: aqua;
+}
